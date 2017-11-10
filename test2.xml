@@ -1,0 +1,5 @@
+<List id='list' items='{/sss}' mode='{device&gt;/listMode}' noDataText='{i18n&gt;masterListNoDataText}' select='onSelect' growing='true' growingScrollToLoad='true'>
+    <items>
+        <ObjectListItem type='{device&gt;/listItemType}' press='onSelect' title='{Name}' number='{ path: "Price", formatter: "exp.ind.cli.util.Formatter.currencyValue" }' numberUnit='USD'></ObjectListItem>
+    </items>
+</List>
